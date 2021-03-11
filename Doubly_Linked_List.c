@@ -14,7 +14,7 @@ void Create_NewNode()
 {
      Newnode = (struct Node*)malloc(sizeof(struct Node));
 
-        printf("Enter Data OF Node :");
+        printf("Enter Data OF NewNode :");
         scanf("%d",&value);
 
         Newnode -> Data = value;
@@ -122,7 +122,7 @@ void Delete_At_Start()
         Temp = Head;
         if(Head == NULL)
         {
-            printf("Empty\n");
+            printf("List is Empty\n");
         }
         else
         {
@@ -142,7 +142,7 @@ void Delete_At_Last()
         Temp = Head;
         if(Head == NULL)
         {
-            printf("Empty\n");
+            printf("List is Empty\n");
         }
         else
         {
@@ -270,4 +270,3 @@ int main()
      _getch();
 
 }
-
