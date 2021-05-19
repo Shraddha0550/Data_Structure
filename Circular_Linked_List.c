@@ -47,7 +47,7 @@ void Insert_At_Start()
 {
      Create_NewNode();
 
-     Newnode -> Next = Head ;
+     Newnode -> Next = Head;
      Head = Newnode;
      Tail -> Next = Head;
      printf("\n Node IS Inserted At Starting Position SuccessFully !!  \n");
@@ -57,7 +57,7 @@ void Insert_At_Last()
      Create_NewNode();
 
      Tail -> Next = Newnode;
-     Newnode -> Next = Head  ;
+     Newnode -> Next = Head;
      Tail = Newnode;
 
      printf("\n Node Is Inserted Last Position SuccessFully !!  \n");
